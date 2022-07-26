@@ -1,0 +1,64 @@
+.postStyle {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 10px 10px;
+  border: 1px solid #0000;
+  margin: 10px;
+  margin-left: 5em;
+  margin-right: 5em;
+  background-color: #ececec;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px #000;
+}
+
+.itemId {
+  margin-left: 20px;
+  padding-top: 5px;
+  width: 3em;
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px #636363;
+}
+
+.title:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.title {
+  margin-left: 3em ;
+}
+
+.bodyPost {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.perticularPost {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 10px;
+  border: 1px solid #0000;
+  margin: 10px;
+  margin-top: 10%;
+  margin-left: 5em;
+  margin-right: 5em;
+  background-color: #ececec;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px #000;
+}
+
+.perticularID {
+  width: 3em;
+  padding-left: 15px;
+  padding-top: 5px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px #636363;
+}
+
+.perticularBodyPost {
+  margin-top: 30px;
+  text-align: center;
+}
